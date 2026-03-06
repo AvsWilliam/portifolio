@@ -87,7 +87,7 @@
       
       <!-- Projeto 1 -->
       <div class="row mb-5 align-items-stretch">
-        <div class="col-lg-6 mb-4">
+        <div class="col-lg-6 mb-4" style="border-left: 5px solid #8b2e4a;">
           <div class="card h-100 shadow project-detail-card">
             <img src="/content/images/vistas_safe_route.jpg" class="card-img-top" alt="Projeto 1" style="width: 100%; height: auto; object-fit: cover; margin-bottom: 20px; border-radius: 10px;">
             <div></div>
@@ -97,7 +97,7 @@
 
             <div class="card-body">
               <h4 class="card-title mb-3" style="color: #8b2e4a;">
-                <i class="fas fa-project-diagram"></i> Nome do Projeto 1
+                <i class="fas fa-project-diagram"></i> Sistema de Navegação Segura para Rotas Urbanas
               </h4>
               <p class="card-text"><strong>Descrição:</strong> Descreva brevemente o que o projeto faz e qual problema ele resolve.</p>
               <strong>Descrição:</strong> Sistema de navegação segura para rotas urbanas utilizando GPS e algoritmos de otimização. O projeto integra um módulo ESP32 com sensor GPS, conectando-se a um servidor remoto via MQTT para monitoramento em tempo real. A interface web permite visualizar rotas mais seguras baseadas em dados de criminalidade e fluxo de tráfego urbano. Ideal para aplicações de mobilidade urbana segura.
@@ -105,14 +105,23 @@
             </div>
           </div>
         </div>
+        
         <div class="col-lg-6">
-          <div class="card h-100 shadow">
+          <div class="card h-5 shadow margin-bottom-5 mb-4">
+            <div class="card-body">
+              <p class="card-text"><strong>Descrição:</strong> Descreva brevemente o que o projeto faz e qual problema ele resolve.</p>
+              <strong>Descrição:</strong> Sistema de navegação segura para rotas urbanas utilizando GPS e algoritmos de otimização. O projeto integra um módulo ESP32 com sensor GPS, conectando-se a um servidor remoto via MQTT para monitoramento em tempo real. A interface web permite visualizar rotas mais seguras baseadas em dados de criminalidade e fluxo de tráfego urbano. Ideal para aplicações de mobilidade urbana segura.
+              <p class="card-text"><strong>Status:</strong> <span class="badge bg-success">Aguardando Investidor</span></p>
+            </div>
+          </div>
+          
+          <div class="card h-30 shadow">
             <div class="card-body">
               <h5 class="mb-3" style="color: #5a1f31;">
                 <i class="fas fa-lightbulb"></i> Conceitos Utilizados
               </h5>
               <ul class="list-unstyled mb-4">
-                <li class="mb-2"><i class="fas fa-check" style="color: #8b2e4a;"></i> <strong>PWM (Pulse Width Modulation)</strong> - Controle de intensidade de LED</li>
+                <li class="mb-2"><i class="fas fa-check" style="color: #8b2e4a;"></i> <strong>Modulação e Demodulação em Rádio Frequência</strong> - Controle de intensidade de LED</li>
                 <li class="mb-2"><i class="fas fa-check" style="color: #8b2e4a;"></i> <strong>Interrupções</strong> - Tratamento de eventos em tempo real</li>
                 <li class="mb-2"><i class="fas fa-check" style="color: #8b2e4a;"></i> <strong>Comunicação Serial</strong> - Debug e transferência de dados</li>
               </ul>
@@ -121,20 +130,23 @@
                 <i class="fas fa-tools"></i> Ferramentas & Tecnologias
               </h5>
               <div class="mb-3">
-                <span class="badge bg-danger me-2 mb-2">Arduino Uno</span>
+                <span class="badge bg-danger me-2 mb-2">ESP32</span>
                 <span class="badge bg-warning text-dark me-2 mb-2">C++</span>
                 <span class="badge bg-info me-2 mb-2">Proteus</span>
-                <span class="badge bg-secondary me-2 mb-2">Multímetro</span>
+                <span class="badge bg-secondary me-2 mb-2">C++</span>
+                <span class="badge bg-success me-2 mb-2">PlatformIO</span>
+                <span class="badge bg-primary me-2 mb-2">Wi-Fi</span>
               </div>
 
               <h5 class="mb-3" style="color: #5a1f31;">
                 <i class="fas fa-cube"></i> Componentes Principais
               </h5>
               <ul class="list-unstyled">
-                <li class="mb-2">• Microcontrolador: Arduino Uno (ATmega328P)</li>
-                <li class="mb-2">• Sensores: Sensor de temperatura DS18B20</li>
-                <li class="mb-2">• Display: LCD 16x2 I2C</li>
-                <li class="mb-2">• Atuadores: Motor DC com driver L298N</li>
+                <li class="mb-2">• Microcontrolador: ESP32 WROOM (Dev Module)</li>
+                <li class="mb-2">• MC145026; MC145027</li>
+                <li class="mb-2">• Emissor e Receptor RF 433MHz</li>
+                <li class="mb-2">• Conexão Wi-Fi</li>
+                
               </ul>
             </div>
           </div>
@@ -146,7 +158,7 @@
       <!-- Projeto 2 -->
       <div class="row mb-5 align-items-stretch">
         <div class="col-lg-6 mb-4 order-lg-2">
-          <div class="card h-100 shadow project-detail-card">
+          <div class="card h-100" style="border-left: 5px solid #8b2e4a;">
             <img src="https://via.placeholder.com/500x350" class="card-img-top" alt="Projeto 2">
             <div class="card-body">
               <h4 class="card-title mb-3" style="color: #8b2e4a;">
